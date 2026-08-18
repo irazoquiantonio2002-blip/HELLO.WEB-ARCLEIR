@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARCLEIR | Herramientas Neumáticas Chicago Pneumatic, Apex y Coilhose</title>
+  <meta name="description" content="ARCLEIR comercializa herramientas neumáticas Chicago Pneumatic, puntas y dados Apex, y mangueras de bobina Coilhose. Calidad, durabilidad y eficiencia para industria y taller.">
+  <meta name="keywords" content="herramientas neumáticas, Chicago Pneumatic, Apex puntas y dados, Coilhose mangueras de bobina, ARCLEIR, herramientas industriales, accesorios neumáticos">
+  <meta property="og:title" content="ARCLEIR | Herramientas y Accesorios Neumáticos">
+  <meta property="og:description" content="Distribuidor de Chicago Pneumatic, Apex y Coilhose. Soluciones neumáticas de alto rendimiento para empresas industriales y usuarios individuales.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="img/arcleir-favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <i class="fa-solid fa-gauge-high"></i>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Cargando...</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="ARCLEIR — inicio">
+          <div class="nav-logo-icon" aria-hidden="true">
+            <img src="img/arcleir-icon.png" alt="">
+          </div>
+          <div class="nav-logo-copy">
+            <span>ARCLEIR</span>
+            <span>Herramientas Neumáticas</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Ventajas</a></li>
+            <li><a href="#ambientes">Marcas</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#producto">Catálogo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Solicitar Cotización
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Ventajas</a>
+      <a href="#ambientes">Marcas</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#producto">Catálogo</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Solicitar Cotización →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Parallax background image (fixed) -->
+      <div class="hero-bg" aria-hidden="true"></div>
+      <!-- Dark overlays -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Grid texture -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Canvas particle orbs -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Light shafts -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Film grain overlay -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- One-shot scan reveal -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <!-- Live badge -->
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Chicago Pneumatic · Apex · Coilhose
+          </div>
+
+          <!-- Animated title -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Herramientas que</span></span>
+            <span class="line"><span>trabajan tan duro</span></span>
+            <span class="line"><span class="accent">como tú.</span></span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-sub" id="hero-sub">
+            Distribuimos <strong>Chicago Pneumatic, Apex y Coilhose</strong>: herramientas neumáticas, puntas, dados y accesorios de alto rendimiento para talleres, industria y uso profesional.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Solicitar Cotización
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-solid fa-screwdriver-wrench" style="font-size:15px; color:var(--gray);"></i>
+              Ver Marcas
+            </a>
+          </div>
+
+          <!-- Trust bar -->
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              Marcas Certificadas
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-bolt"></i>
+              Alto Rendimiento
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-industry"></i>
+              Industria y Taller
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — Features
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">La diferencia</div>
+            <h2 class="why-quote" id="why-heading">
+              Cualquiera vende herramientas…
+              <em> pocos garantizan que sigan funcionando cuando más las necesitas.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Comercializamos marcas líderes en neumática —Chicago Pneumatic, Apex y Coilhose— bajo un solo proveedor confiable, con asesoría real para elegir la herramienta correcta desde la primera vez.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-industry"></i>
+            </div>
+            <h3>Marcas Líderes en Neumática</h3>
+            <p>Chicago Pneumatic, Apex y Coilhose reunidos en un mismo lugar, con disponibilidad real de piezas y accesorios.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-users-gear"></i>
+            </div>
+            <h3>Para Industria y Taller</h3>
+            <p>Soluciones para empresas industriales que exigen productividad y para usuarios individuales que buscan durabilidad.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <h3>Accesorios Completos</h3>
+            <p>Mangueras de bobina, puntas y dados para cada tarea: todo lo que necesitas alrededor de tu herramienta principal.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Calidad Garantizada</h3>
+            <p>Herramientas de alto rendimiento, pensadas para resistir el uso diario y optimizar tu productividad.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARCAS — Chicago Pneumatic / Coilhose / Apex
+    ══════════════════════════════════════════════════ -->
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Nuestras Marcas</div>
+            <h2 class="section-title" id="amb-heading">
+              Tres marcas,<br>
+              <span class="gold">un mismo estándar de calidad</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+              Cada línea cubre una necesidad distinta de tu operación neumática.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">¿Cuál necesitas hoy?</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <!-- Chicago Pneumatic -->
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1744302570296-d4bcb55b7002?q=80&w=1400&auto=format&fit=crop"
+              alt="Manómetros de precisión de un sistema de aire comprimido, representando las herramientas neumáticas Chicago Pneumatic">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(201,162,83,0.15); border-color:rgba(230,205,142,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-gauge-high" style="color:#e6cd8e;"></i>
+              </div>
+              <h3>Chicago Pneumatic</h3>
+              <p>Herramientas neumáticas de alto rendimiento: llaves de impacto, taladros y esmeriles para trabajo pesado.</p>
+              <div class="amb-temp">Herramientas Neumáticas</div>
+            </div>
+          </div>
+
+          <!-- Coilhose -->
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1757703304867-8a3c7330f620?q=80&w=1400&auto=format&fit=crop"
+              alt="Mangueras de bobina enrolladas en carrete, accesorios Coilhose">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(255,255,255,0.1); border-color:rgba(255,255,255,0.3);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-circle-notch" style="color:white;"></i>
+              </div>
+              <h3>Coilhose — Accesorios</h3>
+              <p>La marca más importante en mangueras de bobina: flexibles, resistentes y listas para moverse contigo por todo el taller.</p>
+              <div class="amb-temp">Mangueras y Accesorios</div>
+            </div>
+          </div>
+
+          <!-- Apex -->
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1741827866663-6ad8ec20480c?q=80&w=1400&auto=format&fit=crop"
+              alt="Matraca con juego de dados Apex sobre fondo oscuro">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(139,146,155,0.2); border-color:rgba(199,204,210,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-screwdriver-wrench" style="color:#c7ccd2;"></i>
+              </div>
+              <h3>Apex — Puntas y Dados</h3>
+              <p>Precisión en cada giro: puntas y dados de alta resistencia para trabajo profesional e industrial.</p>
+              <div class="amb-temp">Puntas y Dados</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO — How we work
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            Simple, rápido y <span class="gold">sin complicaciones</span>
+          </h2>
+          <p>Del primer contacto a la entrega de tu herramienta, te acompañamos en cada paso.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Cuéntanos qué necesitas</h3>
+            <p>Indícanos la herramienta, marca o accesorio que buscas: Chicago Pneumatic, Apex o Coilhose.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Cotización a la Medida</h3>
+            <p>Te enviamos precio, disponibilidad y opciones equivalentes si lo que buscas no está en stock.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Entrega & Seguimiento</h3>
+            <p>Coordinamos la entrega y quedamos disponibles para cualquier duda técnica posterior.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CATÁLOGO DESTACADO
+    ══════════════════════════════════════════════════ -->
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Catálogo Destacado</div>
+            <h2 class="section-title" id="prod-heading">
+              Todo tu equipo neumático<br>
+              <span class="gold">bajo un mismo techo</span>
+            </h2>
+            <p class="producto-lead">
+              Desde la herramienta principal hasta el último accesorio: combinamos Chicago Pneumatic, Apex y Coilhose para que tu operación no se detenga por falta de equipo.
+            </p>
+
+            <ul class="feature-rows" aria-label="Marcas y líneas de producto ARCLEIR">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-gauge-high"></i></div>
+                <div>
+                  <h4>Chicago Pneumatic — Herramientas Neumáticas</h4>
+                  <p>Llaves de impacto, taladros y esmeriles neumáticos para trabajo pesado y continuo.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-circle-notch"></i></div>
+                <div>
+                  <h4>Coilhose — Mangueras de Bobina</h4>
+                  <p>Accesorios flexibles y resistentes que acompañan tu herramienta a donde la necesites.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></div>
+                <div>
+                  <h4>Apex — Puntas y Dados</h4>
+                  <p>Precisión y resistencia para cada tuerca, tornillo o ajuste que tu trabajo exige.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-wrench"></i></div>
+                <div>
+                  <h4>Un Solo Proveedor</h4>
+                  <p>Ahorra tiempo y coordina todo tu equipo neumático con un mismo proveedor de confianza.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Marcas que distribuye ARCLEIR">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Chicago<br>Pneumatic</span>
+                <span class="spec-name">Herramientas</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Apex</span>
+                <span class="spec-name">Puntas y Dados</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Coilhose</span>
+                <span class="spec-name">Mangueras</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">3 en 1</span>
+                <span class="spec-name">Un Proveedor</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body"
+                   role="img" aria-label="Puntas, dados y herramientas neumáticas ARCLEIR">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                3 marcas líderes
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-bolt" style="color:var(--gold);"></i>
+                Chicago Pneumatic · Apex · Coilhose
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Lo que distingue a ARCLEIR">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="3" data-suffix=""
+                 aria-label="3 marcas">0</div>
+            <div class="stat-lbl">Marcas líderes<br>en neumática</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="3" data-suffix=""
+                 aria-label="3 líneas de producto">0</div>
+            <div class="stat-lbl">Líneas de producto:<br>herramientas y accesorios</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="2" data-suffix=""
+                 aria-label="2 perfiles de cliente">0</div>
+            <div class="stat-lbl">Perfiles de cliente:<br>industrial e individual</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="1" data-suffix=""
+                 aria-label="1 proveedor">0</div>
+            <div class="stat-lbl">Proveedor confiable<br>para todo tu equipo</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SECTORES
+    ══════════════════════════════════════════════════ -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Sectores</div>
+          <h2 class="section-title" id="sec-heading">
+            Ideal para <span class="gold">cada tipo de trabajo</span>
+          </h2>
+          <p>Desde talleres mecánicos hasta grandes plantas industriales, y también para el usuario individual.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-car-side sector-icon" aria-hidden="true"></i>
+            <h3>Talleres Mecánicos</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-industry sector-icon" aria-hidden="true"></i>
+            <h3>Industria y Manufactura</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-helmet-safety sector-icon" aria-hidden="true"></i>
+            <h3>Construcción</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-truck sector-icon" aria-hidden="true"></i>
+            <h3>Flotillas y Transporte</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-house sector-icon" aria-hidden="true"></i>
+            <h3>Uso Individual</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Hablemos de <span class="gold">tu proyecto</span>
+          </h2>
+          <p>Solicita tu cotización gratuita. Te respondemos a la brevedad.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Info panel -->
+          <div class="contact-info">
+            <h3>Atención Personalizada</h3>
+            <p class="ci-sub">Tu proveedor confiable en herramientas y accesorios neumáticos.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Ubicación</h4>
+                  <p><!-- ⚠ Pendiente: agrega aquí la dirección real de ARCLEIR -->
+                     Calle y número,<br>
+                     Colonia, C.P.<br>
+                     Ciudad, Estado.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Teléfonos</h4>
+                  <p>
+                    <!-- ⚠ Pendiente: agrega aquí el/los teléfonos reales de ARCLEIR -->
+                    <a href="tel:0000000000">000 000 0000</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Escríbenos y cotizamos en minutos.</p>
+                  <!-- ⚠ Pendiente: sustituye 520000000000 por el WhatsApp real de ARCLEIR -->
+                  <a href="https://wa.me/520000000000" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Form -->
+          <div class="contact-form-wrap">
+            <h3>Solicitar Cotización</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Nombre Apellido" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                  <select id="f-interest" class="form-control">
+                    <option>Cotización general</option>
+                    <option>Chicago Pneumatic — Herramientas</option>
+                    <option>Apex — Puntas y Dados</option>
+                    <option>Coilhose — Mangueras y Accesorios</option>
+                    <option>Otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle del proyecto</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Cuéntanos qué herramienta, marca, modelo o cantidad necesitas…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar a WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar serás redirigido a WhatsApp para continuar la conversación.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="img/arcleir-icon.png" alt="Icono ARCLEIR">
+          <span>ARCLEIR</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> ARCLEIR. Todos los derechos reservados.
+        </p>
+        <!-- ⚠ Pendiente: agrega aquí las redes sociales reales de ARCLEIR -->
+        <div class="footer-socials">
+          <a href="https://wa.me/520000000000" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       FLOATING WHATSAPP
+  ══════════════════════════════════════════════════════ -->
+  <a href="https://wa.me/520000000000?text=Hola%2C%20visit%C3%A9%20el%20sitio%20de%20ARCLEIR%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20herramientas%20neum%C3%A1ticas."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
