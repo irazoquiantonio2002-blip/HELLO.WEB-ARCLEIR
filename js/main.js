@@ -193,7 +193,7 @@
         `Interés: ${interest}\n` +
         `Detalle: ${msg}`;
 
-      const phone = '520000000000';
+      const phone = '5215531850881';
       const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
       window.open(url, '_blank', 'noopener,noreferrer');
     });
