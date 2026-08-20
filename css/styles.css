@@ -657,6 +657,7 @@ section#hero { padding: 0; }
   grid-template-columns: repeat(6, 1fr);
   gap: 16px;
 }
+.fichas-grid-4 { grid-template-columns: repeat(4, 1fr); }
 .ficha-card {
   display: block;
   border-radius: var(--radius-sm);
