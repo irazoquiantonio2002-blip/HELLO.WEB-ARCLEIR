@@ -64,6 +64,7 @@
       'Chicago Pneumatic',
       'Apex — Puntas y Dados',
       'Coilhose — Accesorios',
+      'Ajax — Cinceles Neumáticos',
       'Herramientas Neumáticas',
       'Calidad Industrial',
       'ARCLEIR',
